@@ -778,6 +778,7 @@ fill:#404bbf;
 
 .footer-form{
     display: flex;
+    gap:24px;
 }
 
 .footer-label{
