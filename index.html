@@ -67,7 +67,9 @@
             <h1 class="main-page-hero">
               Effective Solutions for Your Business
             </h1>
-            <button data-modal-open class="modal-btn" type="button">Order Service</button>
+            <button data-modal-open class="modal-btn" type="button">
+              Order Service
+            </button>
           </div>
         </div>
       </section>
@@ -443,25 +445,44 @@
         <div class="footer-subs">
           <p class="footer-sub-desc">Subscribe</p>
           <form class="footer-form" action="#">
-         <label for="subscription" class="footer-label"> 
-          <input id="subscription" type="email" name="sub-name" placeholder="E-mail" class="footer-input">
-        </label>
-        <button class="footer-sub-button" type="submit">Subscribe
-          <svg class="footer-sub-img" width="24" height="24">
-            <use href="./images/symbol-defs1.svg#icon-icon-send"></use>
-          </svg>
-        </button>
-        </form>
-          </div>
+            <label for="subscription" class="footer-label">
+              <input
+                id="subscription"
+                type="email"
+                name="sub-name"
+                placeholder="E-mail"
+                class="footer-input"
+              />
+            </label>
+            <button class="footer-sub-button" type="submit">
+              Subscribe
+              <svg class="footer-sub-img" width="24" height="24">
+                <use href="./images/symbol-defs1.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close" data-modal-close>
-          <svg class="modal-close-icon" width="8" height="8" >
+          <svg class="modal-close-icon" width="8" height="8">
             <use href="./images/symbol-defs1.svg#icon-close-black"></use>
           </svg>
         </button>
+        <p class="modal-title">Заголовок модального вікна</p>
+        <form class="modal-form">
+          <div class="modal-input-container">
+            <label class="modal-label" for="user-name">Name</label>
+            <div class="modal-input-container-second">
+              <input id="user-name" name="user-name" type="text" class="modal-input" />
+              <input id="user-name" name="user-name" type="text" class="modal-input" />
+              <input id="user-name" name="user-name" type="text" class="modal-input" />
+              <input id="user-name" name="user-name" type="text" class="modal-input" />
+            </div>
+          </div>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
