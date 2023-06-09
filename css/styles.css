@@ -919,7 +919,7 @@ input::placeholder{
     color:  #8e8f99;
  }
 
- /* .label-span{
+ .label-span{
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -929,7 +929,7 @@ input::placeholder{
     align-items: center;
     justify-content: center;
     fill: transparent; 
- } */
+ }
 
  .checkbox-link{
     color: #4d5ae5;
