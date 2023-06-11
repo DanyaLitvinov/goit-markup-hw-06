@@ -947,7 +947,7 @@ input::placeholder{
 
 .checkbox-input {
     position: absolute;
-    -webkit-appearance: none;
+    appearance: none;
 }
 
  .modal-btn-form{
