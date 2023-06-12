@@ -936,7 +936,7 @@ input::placeholder{
     margin-right: 8px;
 }
 
-.checkbox-input:checked + label > .label-span{
+.checkbox-input:checked + .checkbox-label > .label-span{
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
