@@ -920,6 +920,10 @@ input::placeholder{
     align-items: center;
 }
 
+.checkbox-container{
+    margin-bottom: 24px;
+}
+
 .label-span {
     width: 16px;
     height: 16px;
@@ -931,6 +935,7 @@ input::placeholder{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .checkbox-input:checked + .label-span {
@@ -945,10 +950,6 @@ input::placeholder{
     margin-left: 5px;
 }
 
-.checkbox-input {
-    position: absolute;
-    appearance: none;
-}
 
  .modal-btn-form{
     display: block;
@@ -966,4 +967,10 @@ input::placeholder{
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin: 0 auto;
+ }
+
+
+ .visually-hidden{
+    position: absolute;
+    appearance: none;
  }
