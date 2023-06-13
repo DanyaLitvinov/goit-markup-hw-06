@@ -17,6 +17,11 @@
     padding: 0 15px;
 }
 
+.portfolio-container{
+    display: flex;
+    align-items: center;
+}
+
 .header-container{
     display:flex;
     justify-content: space-between;
@@ -28,7 +33,6 @@ li{list-style-type:none;}
 .navigation{
     display: flex;
     align-items: center;
-    gap: 40px
 }
 
 
@@ -48,7 +52,6 @@ li{list-style-type:none;}
 
 .link{
     text-decoration: none;
-    margin-bottom: 16px;
 }
 
 
@@ -776,6 +779,10 @@ fill:#404bbf;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
+}
+
+.footer-subs{
+    margin-left: auto;
 }
 
 .footer-form{
